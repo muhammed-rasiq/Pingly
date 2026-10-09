@@ -4,6 +4,7 @@ import Login from './components/Login'
 import Register from './components/Register'
 import ChatDashBoard from './page/ChatDashBoard'
 import Profile from './page/Profile'
+import Settings from './page/Settings'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <Route path='register' element={<Register/>}/>
       <Route path='chatDash' element={<ChatDashBoard/>}/>
       <Route path='profile' element={<Profile/>}/>
+      <Route path='settings' element={<Settings/>}/>
 
 
     </Routes>
