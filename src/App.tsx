@@ -6,6 +6,7 @@ import ChatDashBoard from './page/ChatDashBoard'
 import Profile from './page/Profile'
 import Settings from './page/Settings'
 import ForgotPassword from './components/ForgotPassword'
+import NewChat from './page/NewChat'
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
       <Route path='profile' element={<Profile/>}/>
       <Route path='settings' element={<Settings/>}/>
       <Route path='forgotPassword' element={<ForgotPassword/>}/>
+      <Route path='newChat' element={<NewChat/>}/>
 
 
     </Routes>
