@@ -7,6 +7,7 @@ import Profile from './page/Profile'
 import Settings from './page/Settings'
 import ForgotPassword from './components/ForgotPassword'
 import NewChat from './page/NewChat'
+import GroupChat from './page/GroupChat'
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
       <Route path='settings' element={<Settings/>}/>
       <Route path='forgotPassword' element={<ForgotPassword/>}/>
       <Route path='newChat' element={<NewChat/>}/>
+      <Route path='group-chat' element={<GroupChat/>}/>
 
 
     </Routes>
