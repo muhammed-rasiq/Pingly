@@ -10,6 +10,7 @@ import NewChat from './page/NewChat'
 import GroupChat from './page/GroupChat'
 import GroupConversation from './page/GroupConversation'
 import ContactDetails from './page/ContactDetails'
+import Notifications from './page/Notifications'
 
 function App() {
 
@@ -28,6 +29,9 @@ function App() {
       <Route path='group-chat' element={<GroupChat/>}/>
       <Route path='groupConversation' element={<GroupConversation/>}/>
       <Route path='contactdetails' element={<ContactDetails/>}/>
+      <Route path='notifications' element={<Notifications/>}/>
+
+      
 
 
 
