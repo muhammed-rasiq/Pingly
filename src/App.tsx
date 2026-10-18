@@ -11,6 +11,7 @@ import GroupChat from './page/GroupChat'
 import GroupConversation from './page/GroupConversation'
 import ContactDetails from './page/ContactDetails'
 import Notifications from './page/Notifications'
+import EditProfile from './page/EditProfile'
 
 function App() {
 
@@ -30,6 +31,8 @@ function App() {
       <Route path='groupConversation' element={<GroupConversation/>}/>
       <Route path='contactdetails' element={<ContactDetails/>}/>
       <Route path='notifications' element={<Notifications/>}/>
+      <Route path='editProfile' element={<EditProfile/>}/>
+      
 
       
 
