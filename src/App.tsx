@@ -12,6 +12,7 @@ import GroupConversation from './page/GroupConversation'
 import ContactDetails from './page/ContactDetails'
 import Notifications from './page/Notifications'
 import EditProfile from './page/EditProfile'
+import ChatSearch from './page/ChatSearch'
 
 function App() {
 
@@ -32,6 +33,8 @@ function App() {
       <Route path='contactdetails' element={<ContactDetails/>}/>
       <Route path='notifications' element={<Notifications/>}/>
       <Route path='editProfile' element={<EditProfile/>}/>
+      <Route path='chatSearch' element={<ChatSearch/>}/>
+      
       
 
       
