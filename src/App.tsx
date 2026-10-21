@@ -14,6 +14,7 @@ import Notifications from './page/Notifications'
 import EditProfile from './page/EditProfile'
 import ChatSearch from './page/ChatSearch'
 import ArchivedChats from './page/ArchivedChats'
+import BlockedContacts from './page/BlockedContacts'
 
 function App() {
 
@@ -36,6 +37,7 @@ function App() {
       <Route path='editProfile' element={<EditProfile/>}/>
       <Route path='chatSearch' element={<ChatSearch/>}/>
       <Route path='archivedChats' element={<ArchivedChats/>}/>
+      <Route path="blocked-contacts" element={<BlockedContacts />} />
       
       
 
