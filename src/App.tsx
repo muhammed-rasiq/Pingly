@@ -17,6 +17,7 @@ import ArchivedChats from './page/ArchivedChats'
 import BlockedContacts from './page/BlockedContacts'
 import PrivacySecurity from './page/PrivacySecurity'
 import HelpSupport from './page/HelpSupport'
+import AboutApp from './page/AboutApp'
 
 function App() {
 
@@ -42,6 +43,7 @@ function App() {
       <Route path="blocked-contacts" element={<BlockedContacts />} />
       <Route path="privacy-security" element={<PrivacySecurity />}/>
       <Route path="help-support" element={<HelpSupport/>} />
+      <Route path="about" element={<AboutApp />} />
         
 
 
