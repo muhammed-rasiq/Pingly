@@ -18,6 +18,7 @@ import BlockedContacts from './page/BlockedContacts'
 import PrivacySecurity from './page/PrivacySecurity'
 import HelpSupport from './page/HelpSupport'
 import AboutApp from './page/AboutApp'
+import LogoutConfirmation from './page/LogoutConfirmation'
 
 function App() {
 
@@ -44,6 +45,10 @@ function App() {
       <Route path="privacy-security" element={<PrivacySecurity />}/>
       <Route path="help-support" element={<HelpSupport/>} />
       <Route path="about" element={<AboutApp />} />
+      <Route
+  path="logout"
+  element={<LogoutConfirmation />}
+/>
         
 
 
