@@ -19,6 +19,7 @@ import PrivacySecurity from './page/PrivacySecurity'
 import HelpSupport from './page/HelpSupport'
 import AboutApp from './page/AboutApp'
 import LogoutConfirmation from './page/LogoutConfirmation'
+import EmptyChat from './page/EmptyChat'
 
 function App() {
 
@@ -45,10 +46,13 @@ function App() {
       <Route path="privacy-security" element={<PrivacySecurity />}/>
       <Route path="help-support" element={<HelpSupport/>} />
       <Route path="about" element={<AboutApp />} />
-      <Route
-  path="logout"
-  element={<LogoutConfirmation />}
-/>
+      <Route path="logout" element={<LogoutConfirmation />}/>
+      <Route path="emptyChat" element={<EmptyChat />}/>
+
+
+ 
+
+ 
         
 
 
