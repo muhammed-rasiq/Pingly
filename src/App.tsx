@@ -20,6 +20,7 @@ import HelpSupport from './page/HelpSupport'
 import AboutApp from './page/AboutApp'
 import LogoutConfirmation from './page/LogoutConfirmation'
 import EmptyChat from './page/EmptyChat'
+import ReportContact from './page/ReportContact'
 
 function App() {
 
@@ -48,6 +49,7 @@ function App() {
       <Route path="about" element={<AboutApp />} />
       <Route path="logout" element={<LogoutConfirmation />}/>
       <Route path="emptyChat" element={<EmptyChat />}/>
+      <Route path="report-contact" element={<ReportContact />} />
 
 
  
