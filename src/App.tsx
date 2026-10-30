@@ -21,6 +21,7 @@ import AboutApp from './page/AboutApp'
 import LogoutConfirmation from './page/LogoutConfirmation'
 import EmptyChat from './page/EmptyChat'
 import ReportContact from './page/ReportContact'
+import MediaPreview from './page/MediaPreview'
 
 function App() {
 
@@ -50,6 +51,7 @@ function App() {
       <Route path="logout" element={<LogoutConfirmation />}/>
       <Route path="emptyChat" element={<EmptyChat />}/>
       <Route path="report-contact" element={<ReportContact />} />
+      <Route path="media-preview" element={<MediaPreview />} />
 
 
  
